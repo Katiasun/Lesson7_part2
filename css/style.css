@@ -21,13 +21,13 @@ body {
   width: 950px;
   height: 658px;
   border: 1px solid #ffffff;
-  margin: 35px 245px 180px 245px;
+  margin: 35px 245px 125px 245px;
 }
 .weather {
   list-style: none;
   font-size: 0;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 .weather li {
   margin: 5px 0;
@@ -44,57 +44,57 @@ body {
 .lisbon {
   background-color: #3399cc;
   width: 466px;
-  height: 157px;
+  height: 100px;
 }
 .paris {
   background-color: #33cccc;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .belgrade {
   background-color: #996699;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .moscow {
   background-color: #c24747;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .telaviv {
   background-color: #e2674a;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .cair {
   background-color: #ffcc66;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .newyork {
   background-color: #99cc99;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .newdelhi {
   background-color: #669999;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .francosco {
   background-color: #cc6699;
   width: 466px;
-  height: 157px;
+  height: 100px;
 }
 .tokyo {
   background-color: #339966;
   width: 230px;
-  height: 157px;
+  height: 100px;
 }
 .sydney {
   background-color: #666699;
   width: 938px;
-  height: 157px;
+  height: 100px;
 }
 .last {
   color: #ffffff;
@@ -102,4 +102,5 @@ body {
   font-weight: 600;
   font-size: 18px;
   height: 25px;
+  margin: 155px 584px 40px 245px;
 }
