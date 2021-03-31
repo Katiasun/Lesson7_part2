@@ -27,10 +27,8 @@ body {
   list-style: none;
   font-size: 0;
   text-align: center;
-  padding: 5px;
 }
 .weather li {
-  margin: 5px 0;
   display: inline-block;
   text-align: center;
 
