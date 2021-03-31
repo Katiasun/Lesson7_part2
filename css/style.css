@@ -2,10 +2,12 @@
   transition: all 0.1s ease-in;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #3399cc;
   border: 15px ridge #1a709b;
+  font-family: "Montserrat", sans-serif;
   width: 1440px;
   height: 1024px;
   margin: 0 auto;
@@ -15,84 +17,75 @@ body {
   line-height: 33px;
   font-weight: 600;
   font-size: 24px;
-  margin: 40px 943px 35px 245px;
+  margin: 40px 852px 25px 245px;
 }
 .content {
   width: 950px;
   height: 658px;
-  border: 1px solid #ffffff;
   margin: 35px 245px 125px 245px;
 }
 .weather {
+  width: 100%;
+  height: auto;
+
   list-style: none;
   font-size: 0;
-  text-align: center;
+  line-height: 0;
+
+  border: 3px solid #ffffff;
+  background-color: white;
 }
-.weather li {
+li {
   display: inline-block;
   text-align: center;
 
   color: #ffffff;
 
-  font-size: 24px;
+  font-size: 20px;
   line-height: 33px;
   font-weight: 600;
-  width: 50%;
+  width: 25%;
+  height: 157px;
+  border: 3px solid #ffffff;
 }
 .lisbon {
   background-color: #3399cc;
-  width: 466px;
-  height: 100px;
+  width: 50%;
 }
 .paris {
   background-color: #33cccc;
-  width: 230px;
-  height: 100px;
 }
 .belgrade {
   background-color: #996699;
-  width: 230px;
-  height: 100px;
 }
 .moscow {
   background-color: #c24747;
-  width: 230px;
-  height: 100px;
 }
 .telaviv {
   background-color: #e2674a;
-  width: 230px;
-  height: 100px;
 }
 .cair {
   background-color: #ffcc66;
-  width: 230px;
-  height: 100px;
 }
 .newyork {
   background-color: #99cc99;
-  width: 230px;
-  height: 100px;
 }
 .newdelhi {
   background-color: #669999;
-  width: 230px;
-  height: 100px;
 }
 .francosco {
   background-color: #cc6699;
-  width: 466px;
-  height: 100px;
+  width: 50%;
 }
 .tokyo {
   background-color: #339966;
-  width: 230px;
-  height: 100px;
 }
 .sydney {
   background-color: #666699;
-  width: 938px;
-  height: 100px;
+  width: 100%;
+}
+li:hover {
+  border: 5px solid rgb(247, 218, 218);
 }
 .last {
   color: #ffffff;
@@ -100,5 +93,5 @@ body {
   font-weight: 600;
   font-size: 18px;
   height: 25px;
-  margin: 155px 584px 40px 245px;
+  margin: 100px 500px 40px 245px;
 }
