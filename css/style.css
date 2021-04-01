@@ -22,7 +22,7 @@ body {
 .content {
   width: 950px;
   height: 658px;
-  margin: 35px 245px 125px 245px;
+  margin: 35px 245px 45px 245px;
 }
 .weather {
   width: 100%;
@@ -41,7 +41,7 @@ li {
   padding-top: 45px;
 
   color: #ffffff;
-
+  font-family: "Open Sans" sans-serif;
   font-size: 20px;
   line-height: 33px;
   font-weight: 600;
@@ -94,5 +94,9 @@ li:hover {
   font-weight: 600;
   font-size: 18px;
   height: 25px;
-  margin: 100px 500px 40px 245px;
+  margin: 50px 500px 40px 245px;
+}
+i {
+  font-size: 24px;
+  font-family: "Open Sans" sans-serif;
 }
