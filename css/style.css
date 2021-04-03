@@ -41,7 +41,7 @@ li {
   padding-top: 45px;
 
   color: #ffffff;
-  font-family: "Open Sans" sans-serif;
+  font-family: "Open Sans",sans-serif;
   font-size: 20px;
   line-height: 33px;
   font-weight: 600;
@@ -95,8 +95,4 @@ li:hover {
   font-size: 18px;
   height: 25px;
   margin: 50px 500px 40px 245px;
-}
-i {
-  font-size: 24px;
-  font-family: "Open Sans" sans-serif;
 }
